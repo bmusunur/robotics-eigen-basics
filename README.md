@@ -25,9 +25,3 @@ cmake -S . -B build && cmake --build build
 3. `6.12e-17` lanti chinna numbers kanipisthe adi floating-point valla vachina zero. Bug kaadu.
    Compare cheyyadaniki `==` kaakunda `isApprox()` vaadandi.
 
-## Interview questions (ee week tarvata answer cheyyagalagali)
-- Rotation matrix properties enti? (R^T R = I, det = +1)
-- Quaternion vs Euler: ROS quaternion enduku vaadutundi? (gimbal lock ledu, smooth interpolation)
-- `T_base_cam * p_cam`: ee naming convention ela pani chestundi?
-- Inverse kante `solve()` enduku better?
-- 7-DOF arm Jacobian ki inverse ela? (pseudo-inverse)
